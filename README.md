@@ -12,8 +12,9 @@ In this task, I continued from Task 6.1P by interacting with a deployed Node.js 
 
 To check the status of the deployed app:
 
-kubectl get pods
-kubectl get services
+```kubectl get pods```
+
+```kubectl get services```
 
 ### Port Forward to Access the Application
 
