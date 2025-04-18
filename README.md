@@ -28,7 +28,7 @@ Access the site using ```http://localhost:8000```
 
 ```http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/```
 
-## Update the Application
+## Part 2- Update the Application
 
 In server.js (or app.js), I updated the response as follows:
 
@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 ```docker build -t pasindufdo98/docker_web_app:version2 .```
 ```docker push pasindufdo98/docker_web_app:version2```
 
-### Update Kubernetes Update Kubernetes Deployment
+### Update Kubernetes Deployment
 
 ```kubectl set image deployment/docker-web-app-deployment docker-web-app=pasindufdo98/docker_web_app:version2```
 
