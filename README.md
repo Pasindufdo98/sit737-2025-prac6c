@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
 
 ### Confirm the Rollout
 
-kubectl rollout status deployment/docker-web-app-deployment
+```kubectl rollout status deployment/docker-web-app-deployment```
 
 ### Check the result on browser
 
